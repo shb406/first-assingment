@@ -1,4 +1,6 @@
-
+*{
+    margin: auto;
+}
 
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
@@ -62,10 +64,12 @@ nav li{
     padding: 26px 221px;
 }
 /* section start */
+
 .section{
     text-align: center;
-    background-color: #e0e8f5;
-    margin: 155px 245px;
+    background-color: #e6ecf5;
+    margin: 130px 150px;
+    padding: 80px 97px;
 }
 .section-title{
     font-weight: 800;
@@ -76,30 +80,92 @@ nav li{
     font-weight: normal;
     font-size: 16px;
 }
+.Target{
+    display: flex;
+    gap: 60px;
+    margin: 70px 150px;  
+     
+}
+.Targets{
+    margin: 97px;
+}
+.target-dec{
+    padding: 10px 0px;
+}
+
+.html{
+    background-color: #feded6;
+    padding:40px;
+}
+.css{
+    background-color: #dce6f8;
+    padding:40px;
+
+}
+.js{
+    background-color: #f4eec3;
+    padding:40px;
+}
+.text-center{
+    text-align: center;
+}
 /* sec style */
-.sec-div{
+.sec-div1{
     text-align: left;
+    margin: 0px 32px;
+}
+.sec-div2{
+    text-align: left;
+    margin: 0px 32px;
+}
+.sec-div3{
+    text-align: left;
+    margin: 0px 32px;
+}
+.sec-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #3d4048;
 }
 .sec1{
-    font-weight: 800px;
     font-size: 32px;
     display: flex;
     justify-content: space-around; 
+    padding: 30px 48px;
+    
+}
+.sec2{
+    text-align: left;
+    font-size: 32px;
+    display:flex;
+    justify-content: space-around;
     padding: 58px 48px;
+}
+.sec3{
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around; 
+    padding: 30px 48px;
 }
 
 
 .sec-dec{
     font-weight: normal;
     font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
 }
-.sec-profile{
-    padding: 48px 48px 48px 200px;
-}
+
 /* learn button */
 .learn{
     font-weight: 600px;
     font-size: 20px;
     padding: 12px 20px;
     color: #0D1321;
+}
+.learn-more2{
+    font-weight: bold;
+    font-size: 16px;
+
 }
