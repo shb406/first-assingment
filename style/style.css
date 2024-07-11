@@ -71,6 +71,7 @@ nav li{
     background-color: #e6ecf5;
     margin: 130px 150px;
     padding: 80px 97px;
+    border-radius: 8px;
 }
 .section-title{
     font-weight: 800;
@@ -84,15 +85,16 @@ nav li{
 .Target{
     display: flex;
     gap: 60px;
-    margin: 70px 150px;  
-     
 }
 .Targets{
     margin: 97px;
     margin: 130px 150px;
 }
 .target-dec{
-    padding: 30px;
+    padding: 30px 0px;
+}
+.target{
+   border-radius: 8px;
 }
 
 .html{
@@ -173,6 +175,9 @@ nav li{
 .support{
     margin: 130px 150px;
     padding: 64px 48px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
     background-image: url('../assets/handshake.jpg')
     
 
@@ -180,4 +185,33 @@ nav li{
 .support-title{
     font-weight: bold;
     font-size: 32px;
+}
+.support-sec{
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sup-sub{
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 20px;
+    color: #242a3a;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+.placeholder{
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px 215px 19px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: whitesmoke;
+}
+/* footer */
+.foot{
+    display: flex;
+    padding: 32px 150px;
 }
