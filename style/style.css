@@ -23,6 +23,7 @@
     padding: 21px 24px;
     background-color: #0D1321;
     border-radius: 8px;
+    margin-top: 10px;
 }
 .od13{
     color: #0D1321;
@@ -88,9 +89,10 @@ nav li{
 }
 .Targets{
     margin: 97px;
+    margin: 130px 150px;
 }
 .target-dec{
-    padding: 10px 0px;
+    padding: 30px;
 }
 
 .html{
@@ -147,8 +149,6 @@ nav li{
     justify-content: space-around; 
     padding: 30px 48px;
 }
-
-
 .sec-dec{
     font-weight: normal;
     font-size: 16px;
@@ -168,4 +168,16 @@ nav li{
     font-weight: bold;
     font-size: 16px;
 
+}
+/* support section  */
+.support{
+    margin: 130px 150px;
+    padding: 64px 48px;
+    background-image: url('../assets/handshake.jpg')
+    
+
+}
+.support-title{
+    font-weight: bold;
+    font-size: 32px;
 }
